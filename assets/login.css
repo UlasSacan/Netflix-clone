@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(15, 15, 15, 0.719) , rgba(0, 0, 0, 0.336)) , url("../images/login_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+
+
+}
+
+
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    transform: translate(0px , 10rem);
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 25rem;
+    height: 40rem;
+    position: absolute;
+    left: 30rem;
+    top: 0%;
+    border-radius: .5rem;
+    justify-content: start;
+}
+
+
+/* LOGİN CONTENT */
+
+
+.user-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+    
+
+}
+
+.user-data h2{
+    font-family: sans-serif;
+    padding-bottom: 1.7rem;
+    font-size: 2rem;
+}
+
+.user-data input{
+    padding: 1rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+    background-color: #333333;
+    outline: none;
+    border-radius: .4rem;
+    color: white;
+}
+
+
+.sign button{
+    width: 20rem;
+    padding: .8rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    background-color: #E50914;
+    color: white;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.login-footer{
+    display: flex;
+}
+
+.login-footer a{
+    margin-left: 5.2rem;
+    margin-top: 1rem;
+    color: #787978;
+    text-decoration: none;
+
+}
+.login-footer a:hover{
+    text-decoration: underline;
+}
+.login-footer p , .check{
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+/* LOGİN CONTENT END*/
+
+
+
+
+
+

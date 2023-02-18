@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #252525;
+
+}
+
+/* Navbar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 100%;
+}
+
+header img {
+    width: 160px;
+    margin: 1.4rem;
+}
+
+
+.header-buttons button:first-child {
+    width: 6rem;
+    padding: .6rem;
+    margin: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+
+}
+
+.header-buttons button:last-child {
+    color: white;
+    background-color: #E50914;
+    border-radius: .3rem;
+    border: none;
+    padding: .6rem;
+    width: 7rem;
+    margin: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Navbar End*/
+
+
+
+
+/* Promotinal */
+
+/*  */
+.promotinal-container {
+    background: linear-gradient(rgba(8, 8, 8, 0.5), rgba(2, 2, 2, 0.836)), url("../images/TR-tr-20230206-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    /* background-image: url(images/TR-tr-20230206-popsignuptwoweeks-perspective_alpha_website_medium.jpg); */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promotinal-text {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 13rem;
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+.promotinal-text h3 {
+    font-size: 3.125rem;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+
+.promotinal-text p {
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+
+.promotinal-mail input {
+    width: 30rem;
+    padding: 1.3rem;
+
+}
+
+.start-button {
+    padding: 1.1rem;
+    width: 11rem;
+    color: white;
+    background-color: #E20813;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.promotinal-mail {
+    display: flex;
+    justify-content: center;
+}
+
+.start-button:hover {
+    background-color: #e20813b4;
+}
+
+
+
+/* Promotinol is complate */
+
+
+/* card 1 */
+
+.cards {
+    margin-top: .4rem;
+    background-color: black;
+    color: white;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    margin-right: 10rem;
+    margin-left: 4rem;
+}
+
+.box1 h2 {
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+p:last-child {
+    font-size: 1.6rem;
+}
+/* card 1 End*/
+
+
+/* card 2 */
+.offline-mobile {
+    margin-top: .4rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.mobile-image {
+    margin-right: 10rem;
+}
+
+.mobile-box {
+    width: 35rem;
+    font-size: 2rem;
+}
+
+
+/* card 2 End*/
+
+
+/* card 3 */
+
+.all-devices {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    margin-right: 10rem;
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+
+.all-devices p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* card 3 End*/
+
+
+
+
+/* card 4 */
+
+
+
+.child-box {
+    margin-top: .4rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40rem;
+    font-size: 1.8rem;
+    margin-left: 5rem;
+}
+
+.child-image {
+    margin-left: 5rem;
+}
+
+
+/* card 4 End*/
+
+
+
+/* footer */
+
+.footer-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sec a {
+    color: #737373;
+    padding: .4rem;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+
+.sec a:hover {
+    text-decoration: underline;
+}
+
+.sec button {
+    background-color: #000;
+    border: 1px solid #333;
+    color: #999;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-top: 1rem;
+}
+
+.sec p {
+    margin-top: 1rem;
+    font-size: .8rem;
+    color: #737373;
+    margin-bottom: 1rem;
+}
+
+.footer-top {
+    background-color: black;
+    color: #737373;
+    padding-left: 5rem;
+    font-family: sans-serif;
+}
+
+
+/* footer End*/
